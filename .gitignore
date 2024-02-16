@@ -1,0 +1,6 @@
+venv/*
+/db.sqlite3
+/venv
+/score_database/migrations
+/score_database/__pycache__
+/min_max_database_config/__pycache__
