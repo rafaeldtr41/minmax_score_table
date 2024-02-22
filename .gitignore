@@ -4,3 +4,7 @@ venv/*
 /score_database/migrations
 /score_database/__pycache__
 /min_max_database_config/__pycache__
+/db.sqlite3-journal
+/db.sqbpro
+/input/__pycache__
+__pycache__/input_csv.cpython-312.pyc

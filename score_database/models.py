@@ -8,10 +8,12 @@ class Team(models.Model):
 
     name = models.CharField(max_length=255, unique=True)
 
+    def __str__(self) -> str:
+        return self.name
 
 class Score (models.Model):
 
-    time = models.DateTimeField()
+    time = models.TimeField()
     date = models.DateField()
     round =  models.IntegerField()
     home_team = models.ForeignKey(Team, related_name="home_team",  on_delete=models.CASCADE)
@@ -19,6 +21,8 @@ class Score (models.Model):
     home_score = models.IntegerField()
     away_score = models.IntegerField()
 
+    def __str__(self) -> str:
+        return  self.home_team + self.away_team 
 
 class Weight(models.Model):
 
@@ -26,20 +30,12 @@ class Weight(models.Model):
     score_id = models.ForeignKey(Score, on_delete=models.CASCADE)
     Weight = models.FloatField()
 
+    def __str__(self) -> str:
+        return self.score_id
+    
 
-""" ----------------------------------------Triggers-----------------------------------------------------------------------------"""
+class length_database(models.Model):
 
-@receiver(models.signals.post_save, sender=Score)
-def CalculateWeight(sender, **kwargs):
-
-    #Weight for home team
-    val = sender.home_score  +  (sender.away_score * -1.2)
-    aux = Score.objects.create(sender.home_team, sender, val)
-    aux.save()
-    #Weight for away team
-    val = val * -1
-    aux = Score.objects.create(sender.away_team, sender, val)
-
-
-
-
+    date = models.DateField(auto_now=True)
+    team_length = models.IntegerField()
+    score_length = models.IntegerField()
