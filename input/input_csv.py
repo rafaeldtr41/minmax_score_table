@@ -8,12 +8,13 @@ from pathlib import Path
 from datetime import datetime
 from django.db import IntegrityError
 from score_database.models import Team, Score, Weight
+import re
 
 
 
 
 format_time = lambda time_str: ':'.join(time_str.split(':')[:2])
-format_date = lambda date_string: date_string[:8]
+lambda_date = lambda date_string: date_string[:8]
 
 
 #Returns the object team for relationship
@@ -25,6 +26,24 @@ def get_team(name:str):
     except:
 
         return None
+    
+
+def format_date(string:str):
+
+    regex_format_conv = re.compile(r"(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[012])/(\d{2})")
+    regex_format_day_week = re.compile(r"(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2}\s+\d{4}")
+
+    if regex_format_conv.search(string):
+
+        return datetime(lambda_date(string), "%d/%m/%y")
+    
+    if regex_format_day_week.search(string):
+
+        return datetime.strptime(string, "%a %b %d %Y").strftime( "%d/%m/%y" )
+
+    
+
+
 
 #Insert Score
 def insert_score(row:dict):
@@ -40,8 +59,8 @@ def insert_score(row:dict):
     
     try:
         aux = Score.objects.create(
-            time=datetime.strptime(format_time(row['time']), '%H:%M'),
-            date=datetime.strptime(format_date(row['date']), "%d/%m/%y"), 
+            #time=datetime.strptime(format_time(row['time']), '%H:%M'),
+            date=format_date(row["date"]), 
             home_team=home_team,
             away_team=away_team,
             home_score=int(row['home_score']),
@@ -90,28 +109,3 @@ def open_file(dir:str):
     except:
 
         print(file_address + "is not a csv")
-
-
-def CalculateWeight():
-
-    Scores = Score.objects.all()
-    #Weight for home team
-    counter = 0 
-    for i in Scores:
-        
-        val = i.home_score  +  (float(i.away_score)*-1.2)
-        home_team = Team.objects.get(id=i.home_team.id)
-        away_team = Team.objects.get(id=i.away_team.id)
-        aux = Weight.objects.create(
-            team_id=home_team,
-            score_id=i, 
-            Weight=val)
-        aux.save()
-        #Weight for away team
-        val = val*-1  
-        aux = Weight.objects.create(team_id=away_team, score_id=i, Weight=val)
-        
-        aux.save()
-        counter +=2
-        print("Inserted two")
-        print(counter)

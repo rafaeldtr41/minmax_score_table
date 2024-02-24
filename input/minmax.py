@@ -1,4 +1,5 @@
 from .Tree import T_Tree
+from numba import jit
 
 
 

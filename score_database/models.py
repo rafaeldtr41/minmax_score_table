@@ -13,7 +13,7 @@ class Team(models.Model):
 
 class Score (models.Model):
 
-    time = models.TimeField()
+    #time = models.TimeField(default = None, null=True)
     date = models.DateField()
     round =  models.IntegerField()
     home_team = models.ForeignKey(Team, related_name="home_team",  on_delete=models.CASCADE)
@@ -34,8 +34,18 @@ class Weight(models.Model):
         return self.score_id
     
 
-class length_database(models.Model):
 
-    date = models.DateField(auto_now=True)
-    team_length = models.IntegerField()
-    score_length = models.IntegerField()
+class MinMax_Weight(models.Model):
+
+    team_id = models.ForeignKey(Team, related_name="team_id", on_delete=models.CASCADE)
+    team_against_id = models.ForeignKey(Team, related_name="team_against_id", on_delete=models.CASCADE)
+    max_value = models.FloatField()
+    less_value = models.FloatField()
+
+
+class MinMax_Weight_rivals(models.Model):
+
+    team_id = models.ForeignKey(Team, related_name="team_id_rival", on_delete=models.CASCADE)
+    team_against_id = models.ForeignKey(Team, related_name="team_against_id_rival", on_delete=models.CASCADE)
+    max_value = models.FloatField()
+    less_value = models.FloatField()
