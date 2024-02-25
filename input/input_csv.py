@@ -15,7 +15,9 @@ import re
 
 format_time = lambda time_str: ':'.join(time_str.split(':')[:2])
 lambda_date = lambda date_string: date_string[:8]
+lambda_date1 = lambda date_string: date_string[4:]
 
+MONTH = {'Jan':"1", "Feb":"2", "Mar":"3", "Apr":"4", "May":"5", "Jun":"6", "Jul":"7", "Aug":"8", "Sep":"9", "Oct":"10", "Nov":"11", "Dec":"12" }
 
 #Returns the object team for relationship
 def get_team(name:str):
@@ -35,12 +37,21 @@ def format_date(string:str):
 
     if regex_format_conv.search(string):
 
-        return datetime(lambda_date(string), "%d/%m/%y")
+        
+        return datetime.strptime(lambda_date(string), "%d/%m/%y")
     
     if regex_format_day_week.search(string):
 
-        return datetime.strptime(string, "%a %b %d %Y").strftime( "%d/%m/%y" )
+        aux = string.split(' ')
 
+        string = aux[2] + "/" + MONTH[aux[1]] + "/" + aux[3][2:]
+        print(string)
+        try:
+            return datetime.strptime(string, "%d/%m/%y")
+
+        except:
+
+            return datetime.strptime("01/12/22", "%d/%m/%y")
     
 
 
@@ -95,9 +106,9 @@ def open_file(dir:str):
 
     file_address = Path(dir)
 
-    try:
+    #try:
 
-        with open(file_address, newline='') as csvfile:
+    with open(file_address, newline='') as csvfile:
             
             reader = csv.DictReader(csvfile)
             for row in reader:
@@ -106,6 +117,6 @@ def open_file(dir:str):
                 print(insert_team(row['away_team']))
                 print(insert_score(row))
 
-    except:
+    #except:
 
-        print(file_address + "is not a csv")
+     #   print(file_address + "is not a csv")

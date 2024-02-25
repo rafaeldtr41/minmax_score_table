@@ -22,16 +22,16 @@ def compare(values:list, new,  state):
 
 
 def minmax(tree:T_Tree, values:list, state=True):
-
+    print(state)
     if tree.is_leaf():
-
-        values = compare(values, tree.weight, state)
+        
+        values = compare(values, tree.weight, not state)
         return values
     
     for i in tree.children:
-
-        if not i.is_leaf() and state and values[0] < i.weight or not i.is_leaf() and not state and values[1] > i.weight:
-
+        
+        if (not i.is_leaf() and state and values[0] < i.weight) or (not i.is_leaf() and not state and values[1] > i.weight):
+            
             values = compare(values, i.weight, state)
             aux = minmax(i, values, not state)
 
@@ -41,8 +41,8 @@ def minmax(tree:T_Tree, values:list, state=True):
             values = values = compare(values, i.weight, state)
 
         if aux is not None:
-
-            values = compare(values, get_better(aux[0], aux[1], state), state)
+            
+            values = compare(values, get_better(aux[0], aux[1],not state), state)
         
     return values
 
