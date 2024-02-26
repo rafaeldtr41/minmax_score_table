@@ -1,8 +1,9 @@
 from .Tree import T_Tree, get_children
 from django.db.models import Q, Subquery
-from score_database.models import Weight, Team, Score, MinMax_Weight , MinMax_Weight_rivals
+from score_database.models import Weight, Team, Score, MinMax_Weight 
 from .minmax import minmax
 from numba import jit
+from asgiref.sync import sync_to_async
 import math
 
 
@@ -262,9 +263,29 @@ def delete_all_weight():
 
 def delete_all():
 
-    MinMax_Weight_rivals.objects.all().delete()
+    #MinMax_Weight_rivals.objects.all().delete()
     MinMax_Weight.objects.all().delete()
     Weight.objects.all().delete()
     Score.objects.all().delete()
     Team.objects.all().delete()
 
+def get_min_max_result(team1:str, team2:str):
+
+    try:
+
+        hteam = Team.objects.get(name=team1)
+        ateam = Team.objects.get(name=team2)
+
+    except:
+
+        return "Team dont exists"
+    
+    aux = MinMax_Weight.objects.filter(team_id=hteam, team_against_id=ateam)
+    aux1 = MinMax_Weight.objects.filter(team_id=ateam, team_against_id=hteam)
+
+    return aux.union(aux1)
+
+
+def get_all_teams():
+
+    return list(Team.objects.all())

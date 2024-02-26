@@ -1,0 +1,381 @@
+team,against_team,best_val,worst_val
+Fulham,Aston Villa,0.4898979485566356,0.0
+Aston Villa,Fulham,0.6,0.010000000000000002
+Fulham,Manchester City,0.4898979485566356,0.0
+Manchester City,Fulham,0.7745966692414834,0.04000000000000001
+Fulham,Manchester Utd,0.4898979485566356,0.0
+Manchester Utd,Fulham,0.9486832980505138,0.0
+Fulham,Burnley,0.4898979485566356,0.0
+Burnley,Fulham,0.6,0.0
+Fulham,Chelsea,0.4898979485566356,0.0
+Chelsea,Fulham,0.6828203230275509,0.1
+Fulham,Brighton,0.4898979485566356,0.0
+Brighton,Fulham,0.5477225575051662,0.0
+Fulham,Wolves,0.4898979485566356,0.0
+Wolves,Fulham,0.4798979485566356,0.1
+Fulham,Sheffield Utd,0.4898979485566356,0.0
+Sheffield Utd,Fulham,0.4798979485566356,0.0
+Fulham,Everton,0.4898979485566356,0.0
+Everton,Fulham,0.6495067811865476,0.5748555320336759
+Fulham,Tottenham,0.4898979485566356,0.0
+Tottenham,Fulham,0.838528137423857,0.010000000000000002
+Fulham,Leicester City,0.4898979485566356,0.0
+Leicester City,Fulham,0.7345966692414834,0.0
+Fulham,West Brom,0.4898979485566356,0.0
+West Brom,Fulham,0.5599999999999999,0.010000000000000002
+Fulham,Newcastle Utd,0.4898979485566356,0.0
+Newcastle Utd,Fulham,0.6528203230275509,0.0
+Fulham,West Ham,0.4898979485566356,0.0
+West Ham,Fulham,0.6,0.010000000000000002
+Fulham,Leeds United,0.4898979485566356,0.0
+Leeds United,Fulham,0.7745966692414834,0.0
+Fulham,Liverpool,0.4898979485566356,0.0
+Liverpool,Fulham,0.59,0.5333225575051662
+Fulham,Southampton,0.4898979485566356,0.0
+Southampton,Fulham,0.6028203230275508,0.12
+Fulham,Crystal Palace,0.4898979485566356,0.0
+Crystal Palace,Fulham,0.7645966692414834,0.010000000000000002
+Fulham,Arsenal,0.4898979485566356,0.0
+Arsenal,Fulham,0.6,0.0144
+Arsenal,Aston Villa,0.6,0.0144
+Aston Villa,Arsenal,0.6,0.010000000000000002
+Arsenal,Manchester City,0.6,0.0144
+Manchester City,Arsenal,0.7745966692414834,0.04000000000000001
+Arsenal,Manchester Utd,0.6,0.0144
+Manchester Utd,Arsenal,0.9486832980505138,0.0
+Arsenal,Burnley,0.6,0.0144
+Burnley,Arsenal,0.6,0.0
+Arsenal,Chelsea,0.6,0.0144
+Chelsea,Arsenal,0.6828203230275509,0.1
+Arsenal,Brighton,0.6,0.0144
+Brighton,Arsenal,0.5477225575051662,0.0
+Arsenal,Wolves,0.6,0.0144
+Wolves,Arsenal,0.4798979485566356,0.1
+Arsenal,Sheffield Utd,0.6,0.0144
+Sheffield Utd,Arsenal,0.4798979485566356,0.0
+Arsenal,Everton,0.6,0.0144
+Everton,Arsenal,0.6495067811865476,0.5748555320336759
+Arsenal,Tottenham,0.6,0.0144
+Tottenham,Arsenal,0.838528137423857,0.010000000000000002
+Arsenal,Leicester City,0.6,0.0144
+Leicester City,Arsenal,0.7345966692414834,0.0
+Arsenal,West Brom,0.6,0.0144
+West Brom,Arsenal,0.5599999999999999,0.010000000000000002
+Arsenal,Newcastle Utd,0.6,0.0144
+Newcastle Utd,Arsenal,0.6528203230275509,0.0
+Arsenal,West Ham,0.6,0.0144
+West Ham,Arsenal,0.6,0.010000000000000002
+Arsenal,Leeds United,0.6,0.0144
+Leeds United,Arsenal,0.7745966692414834,0.0
+Arsenal,Liverpool,0.6,0.0144
+Liverpool,Arsenal,0.59,0.5333225575051662
+Arsenal,Southampton,0.6,0.0144
+Southampton,Arsenal,0.6028203230275508,0.12
+Arsenal,Crystal Palace,0.6,0.0144
+Crystal Palace,Arsenal,0.7645966692414834,0.010000000000000002
+Crystal Palace,Aston Villa,0.7645966692414834,0.010000000000000002
+Aston Villa,Crystal Palace,0.6,0.010000000000000002
+Crystal Palace,Manchester City,0.7645966692414834,0.010000000000000002
+Manchester City,Crystal Palace,0.7745966692414834,0.04000000000000001
+Crystal Palace,Manchester Utd,0.7645966692414834,0.010000000000000002
+Manchester Utd,Crystal Palace,0.9486832980505138,0.0
+Crystal Palace,Burnley,0.7645966692414834,0.010000000000000002
+Burnley,Crystal Palace,0.6,0.0
+Crystal Palace,Chelsea,0.7645966692414834,0.010000000000000002
+Chelsea,Crystal Palace,0.6828203230275509,0.1
+Crystal Palace,Brighton,0.7645966692414834,0.010000000000000002
+Brighton,Crystal Palace,0.5477225575051662,0.0
+Crystal Palace,Wolves,0.7645966692414834,0.010000000000000002
+Wolves,Crystal Palace,0.4798979485566356,0.1
+Crystal Palace,Sheffield Utd,0.7645966692414834,0.010000000000000002
+Sheffield Utd,Crystal Palace,0.4798979485566356,0.0
+Crystal Palace,Everton,0.7645966692414834,0.010000000000000002
+Everton,Crystal Palace,0.6495067811865476,0.5748555320336759
+Crystal Palace,Tottenham,0.7645966692414834,0.010000000000000002
+Tottenham,Crystal Palace,0.838528137423857,0.010000000000000002
+Crystal Palace,Leicester City,0.7645966692414834,0.010000000000000002
+Leicester City,Crystal Palace,0.7345966692414834,0.0
+Crystal Palace,West Brom,0.7645966692414834,0.010000000000000002
+West Brom,Crystal Palace,0.5599999999999999,0.010000000000000002
+Crystal Palace,Newcastle Utd,0.7645966692414834,0.010000000000000002
+Newcastle Utd,Crystal Palace,0.6528203230275509,0.0
+Crystal Palace,West Ham,0.7645966692414834,0.010000000000000002
+West Ham,Crystal Palace,0.6,0.010000000000000002
+Crystal Palace,Leeds United,0.7645966692414834,0.010000000000000002
+Leeds United,Crystal Palace,0.7745966692414834,0.0
+Crystal Palace,Liverpool,0.7645966692414834,0.010000000000000002
+Liverpool,Crystal Palace,0.59,0.5333225575051662
+Crystal Palace,Southampton,0.7645966692414834,0.010000000000000002
+Southampton,Crystal Palace,0.6028203230275508,0.12
+Southampton,Aston Villa,0.6028203230275508,0.12
+Aston Villa,Southampton,0.6,0.010000000000000002
+Southampton,Manchester City,0.6028203230275508,0.12
+Manchester City,Southampton,0.7745966692414834,0.04000000000000001
+Southampton,Manchester Utd,0.6028203230275508,0.12
+Manchester Utd,Southampton,0.9486832980505138,0.0
+Southampton,Burnley,0.6028203230275508,0.12
+Burnley,Southampton,0.6,0.0
+Southampton,Chelsea,0.6028203230275508,0.12
+Chelsea,Southampton,0.6828203230275509,0.1
+Southampton,Brighton,0.6028203230275508,0.12
+Brighton,Southampton,0.5477225575051662,0.0
+Southampton,Wolves,0.6028203230275508,0.12
+Wolves,Southampton,0.4798979485566356,0.1
+Southampton,Sheffield Utd,0.6028203230275508,0.12
+Sheffield Utd,Southampton,0.4798979485566356,0.0
+Southampton,Everton,0.6028203230275508,0.12
+Everton,Southampton,0.6495067811865476,0.5748555320336759
+Southampton,Tottenham,0.6028203230275508,0.12
+Tottenham,Southampton,0.838528137423857,0.010000000000000002
+Southampton,Leicester City,0.6028203230275508,0.12
+Leicester City,Southampton,0.7345966692414834,0.0
+Southampton,West Brom,0.6028203230275508,0.12
+West Brom,Southampton,0.5599999999999999,0.010000000000000002
+Southampton,Newcastle Utd,0.6028203230275508,0.12
+Newcastle Utd,Southampton,0.6528203230275509,0.0
+Southampton,West Ham,0.6028203230275508,0.12
+West Ham,Southampton,0.6,0.010000000000000002
+Southampton,Leeds United,0.6028203230275508,0.12
+Leeds United,Southampton,0.7745966692414834,0.0
+Southampton,Liverpool,0.6028203230275508,0.12
+Liverpool,Southampton,0.59,0.5333225575051662
+Liverpool,Aston Villa,0.59,0.5333225575051662
+Aston Villa,Liverpool,0.6,0.010000000000000002
+Liverpool,Manchester City,0.59,0.5333225575051662
+Manchester City,Liverpool,0.7745966692414834,0.04000000000000001
+Liverpool,Manchester Utd,0.59,0.5333225575051662
+Manchester Utd,Liverpool,0.9486832980505138,0.0
+Liverpool,Burnley,0.59,0.5333225575051662
+Burnley,Liverpool,0.6,0.0
+Liverpool,Chelsea,0.59,0.5333225575051662
+Chelsea,Liverpool,0.6828203230275509,0.1
+Liverpool,Brighton,0.59,0.5333225575051662
+Brighton,Liverpool,0.5477225575051662,0.0
+Liverpool,Wolves,0.59,0.5333225575051662
+Wolves,Liverpool,0.4798979485566356,0.1
+Liverpool,Sheffield Utd,0.59,0.5333225575051662
+Sheffield Utd,Liverpool,0.4798979485566356,0.0
+Liverpool,Everton,0.59,0.5333225575051662
+Everton,Liverpool,0.6495067811865476,0.5748555320336759
+Liverpool,Tottenham,0.59,0.5333225575051662
+Tottenham,Liverpool,0.838528137423857,0.010000000000000002
+Liverpool,Leicester City,0.59,0.5333225575051662
+Leicester City,Liverpool,0.7345966692414834,0.0
+Liverpool,West Brom,0.59,0.5333225575051662
+West Brom,Liverpool,0.5599999999999999,0.010000000000000002
+Liverpool,Newcastle Utd,0.59,0.5333225575051662
+Newcastle Utd,Liverpool,0.6528203230275509,0.0
+Liverpool,West Ham,0.59,0.5333225575051662
+West Ham,Liverpool,0.6,0.010000000000000002
+Liverpool,Leeds United,0.59,0.5333225575051662
+Leeds United,Liverpool,0.7745966692414834,0.0
+Leeds United,Aston Villa,0.7745966692414834,0.0
+Aston Villa,Leeds United,0.6,0.010000000000000002
+Leeds United,Manchester City,0.7745966692414834,0.0
+Manchester City,Leeds United,0.7745966692414834,0.04000000000000001
+Leeds United,Manchester Utd,0.7745966692414834,0.0
+Manchester Utd,Leeds United,0.9486832980505138,0.0
+Leeds United,Burnley,0.7745966692414834,0.0
+Burnley,Leeds United,0.6,0.0
+Leeds United,Chelsea,0.7745966692414834,0.0
+Chelsea,Leeds United,0.6828203230275509,0.1
+Leeds United,Brighton,0.7745966692414834,0.0
+Brighton,Leeds United,0.5477225575051662,0.0
+Leeds United,Wolves,0.7745966692414834,0.0
+Wolves,Leeds United,0.4798979485566356,0.1
+Leeds United,Sheffield Utd,0.7745966692414834,0.0
+Sheffield Utd,Leeds United,0.4798979485566356,0.0
+Leeds United,Everton,0.7745966692414834,0.0
+Everton,Leeds United,0.6495067811865476,0.5748555320336759
+Leeds United,Tottenham,0.7745966692414834,0.0
+Tottenham,Leeds United,0.838528137423857,0.010000000000000002
+Leeds United,Leicester City,0.7745966692414834,0.0
+Leicester City,Leeds United,0.7345966692414834,0.0
+Leeds United,West Brom,0.7745966692414834,0.0
+West Brom,Leeds United,0.5599999999999999,0.010000000000000002
+Leeds United,Newcastle Utd,0.7745966692414834,0.0
+Newcastle Utd,Leeds United,0.6528203230275509,0.0
+Leeds United,West Ham,0.7745966692414834,0.0
+West Ham,Leeds United,0.6,0.010000000000000002
+West Ham,Aston Villa,0.6,0.010000000000000002
+Aston Villa,West Ham,0.6,0.010000000000000002
+West Ham,Manchester City,0.6,0.010000000000000002
+Manchester City,West Ham,0.7745966692414834,0.04000000000000001
+West Ham,Manchester Utd,0.6,0.010000000000000002
+Manchester Utd,West Ham,0.9486832980505138,0.0
+West Ham,Burnley,0.6,0.010000000000000002
+Burnley,West Ham,0.6,0.0
+West Ham,Chelsea,0.6,0.010000000000000002
+Chelsea,West Ham,0.6828203230275509,0.1
+West Ham,Brighton,0.6,0.010000000000000002
+Brighton,West Ham,0.5477225575051662,0.0
+West Ham,Wolves,0.6,0.010000000000000002
+Wolves,West Ham,0.4798979485566356,0.1
+West Ham,Sheffield Utd,0.6,0.010000000000000002
+Sheffield Utd,West Ham,0.4798979485566356,0.0
+West Ham,Everton,0.6,0.010000000000000002
+Everton,West Ham,0.6495067811865476,0.5748555320336759
+West Ham,Tottenham,0.6,0.010000000000000002
+Tottenham,West Ham,0.838528137423857,0.010000000000000002
+West Ham,Leicester City,0.6,0.010000000000000002
+Leicester City,West Ham,0.7345966692414834,0.0
+West Ham,West Brom,0.6,0.010000000000000002
+West Brom,West Ham,0.5599999999999999,0.010000000000000002
+West Ham,Newcastle Utd,0.6,0.010000000000000002
+Newcastle Utd,West Ham,0.6528203230275509,0.0
+Newcastle Utd,Aston Villa,0.6528203230275509,0.0
+Aston Villa,Newcastle Utd,0.6,0.010000000000000002
+Newcastle Utd,Manchester City,0.6528203230275509,0.0
+Manchester City,Newcastle Utd,0.7745966692414834,0.04000000000000001
+Newcastle Utd,Manchester Utd,0.6528203230275509,0.0
+Manchester Utd,Newcastle Utd,0.9486832980505138,0.0
+Newcastle Utd,Burnley,0.6528203230275509,0.0
+Burnley,Newcastle Utd,0.6,0.0
+Newcastle Utd,Chelsea,0.6528203230275509,0.0
+Chelsea,Newcastle Utd,0.6828203230275509,0.1
+Newcastle Utd,Brighton,0.6528203230275509,0.0
+Brighton,Newcastle Utd,0.5477225575051662,0.0
+Newcastle Utd,Wolves,0.6528203230275509,0.0
+Wolves,Newcastle Utd,0.4798979485566356,0.1
+Newcastle Utd,Sheffield Utd,0.6528203230275509,0.0
+Sheffield Utd,Newcastle Utd,0.4798979485566356,0.0
+Newcastle Utd,Everton,0.6528203230275509,0.0
+Everton,Newcastle Utd,0.6495067811865476,0.5748555320336759
+Newcastle Utd,Tottenham,0.6528203230275509,0.0
+Tottenham,Newcastle Utd,0.838528137423857,0.010000000000000002
+Newcastle Utd,Leicester City,0.6528203230275509,0.0
+Leicester City,Newcastle Utd,0.7345966692414834,0.0
+Newcastle Utd,West Brom,0.6528203230275509,0.0
+West Brom,Newcastle Utd,0.5599999999999999,0.010000000000000002
+West Brom,Aston Villa,0.5599999999999999,0.010000000000000002
+Aston Villa,West Brom,0.6,0.010000000000000002
+West Brom,Manchester City,0.5599999999999999,0.010000000000000002
+Manchester City,West Brom,0.7745966692414834,0.04000000000000001
+West Brom,Manchester Utd,0.5599999999999999,0.010000000000000002
+Manchester Utd,West Brom,0.9486832980505138,0.0
+West Brom,Burnley,0.5599999999999999,0.010000000000000002
+Burnley,West Brom,0.6,0.0
+West Brom,Chelsea,0.5599999999999999,0.010000000000000002
+Chelsea,West Brom,0.6828203230275509,0.1
+West Brom,Brighton,0.5599999999999999,0.010000000000000002
+Brighton,West Brom,0.5477225575051662,0.0
+West Brom,Wolves,0.5599999999999999,0.010000000000000002
+Wolves,West Brom,0.4798979485566356,0.1
+West Brom,Sheffield Utd,0.5599999999999999,0.010000000000000002
+Sheffield Utd,West Brom,0.4798979485566356,0.0
+West Brom,Everton,0.5599999999999999,0.010000000000000002
+Everton,West Brom,0.6495067811865476,0.5748555320336759
+West Brom,Tottenham,0.5599999999999999,0.010000000000000002
+Tottenham,West Brom,0.838528137423857,0.010000000000000002
+West Brom,Leicester City,0.5599999999999999,0.010000000000000002
+Leicester City,West Brom,0.7345966692414834,0.0
+Leicester City,Aston Villa,0.7345966692414834,0.0
+Aston Villa,Leicester City,0.6,0.010000000000000002
+Leicester City,Manchester City,0.7345966692414834,0.0
+Manchester City,Leicester City,0.7745966692414834,0.04000000000000001
+Leicester City,Manchester Utd,0.7345966692414834,0.0
+Manchester Utd,Leicester City,0.9486832980505138,0.0
+Leicester City,Burnley,0.7345966692414834,0.0
+Burnley,Leicester City,0.6,0.0
+Leicester City,Chelsea,0.7345966692414834,0.0
+Chelsea,Leicester City,0.6828203230275509,0.1
+Leicester City,Brighton,0.7345966692414834,0.0
+Brighton,Leicester City,0.5477225575051662,0.0
+Leicester City,Wolves,0.7345966692414834,0.0
+Wolves,Leicester City,0.4798979485566356,0.1
+Leicester City,Sheffield Utd,0.7345966692414834,0.0
+Sheffield Utd,Leicester City,0.4798979485566356,0.0
+Leicester City,Everton,0.7345966692414834,0.0
+Everton,Leicester City,0.6495067811865476,0.5748555320336759
+Leicester City,Tottenham,0.7345966692414834,0.0
+Tottenham,Leicester City,0.838528137423857,0.010000000000000002
+Tottenham,Aston Villa,0.838528137423857,0.010000000000000002
+Aston Villa,Tottenham,0.6,0.010000000000000002
+Tottenham,Manchester City,0.838528137423857,0.010000000000000002
+Manchester City,Tottenham,0.7745966692414834,0.04000000000000001
+Tottenham,Manchester Utd,0.838528137423857,0.010000000000000002
+Manchester Utd,Tottenham,0.9486832980505138,0.0
+Tottenham,Burnley,0.838528137423857,0.010000000000000002
+Burnley,Tottenham,0.6,0.0
+Tottenham,Chelsea,0.838528137423857,0.010000000000000002
+Chelsea,Tottenham,0.6828203230275509,0.1
+Tottenham,Brighton,0.838528137423857,0.010000000000000002
+Brighton,Tottenham,0.5477225575051662,0.0
+Tottenham,Wolves,0.838528137423857,0.010000000000000002
+Wolves,Tottenham,0.4798979485566356,0.1
+Tottenham,Sheffield Utd,0.838528137423857,0.010000000000000002
+Sheffield Utd,Tottenham,0.4798979485566356,0.0
+Tottenham,Everton,0.838528137423857,0.010000000000000002
+Everton,Tottenham,0.6495067811865476,0.5748555320336759
+Everton,Aston Villa,0.6495067811865476,0.5748555320336759
+Aston Villa,Everton,0.6,0.010000000000000002
+Everton,Manchester City,0.6495067811865476,0.5748555320336759
+Manchester City,Everton,0.7745966692414834,0.04000000000000001
+Everton,Manchester Utd,0.6495067811865476,0.5748555320336759
+Manchester Utd,Everton,0.9486832980505138,0.0
+Everton,Burnley,0.6495067811865476,0.5748555320336759
+Burnley,Everton,0.6,0.0
+Everton,Chelsea,0.6495067811865476,0.5748555320336759
+Chelsea,Everton,0.6828203230275509,0.1
+Everton,Brighton,0.6495067811865476,0.5748555320336759
+Brighton,Everton,0.5477225575051662,0.0
+Everton,Wolves,0.6495067811865476,0.5748555320336759
+Wolves,Everton,0.4798979485566356,0.1
+Everton,Sheffield Utd,0.6495067811865476,0.5748555320336759
+Sheffield Utd,Everton,0.4798979485566356,0.0
+Sheffield Utd,Aston Villa,0.4798979485566356,0.0
+Aston Villa,Sheffield Utd,0.6,0.010000000000000002
+Sheffield Utd,Manchester City,0.4798979485566356,0.0
+Manchester City,Sheffield Utd,0.7745966692414834,0.04000000000000001
+Sheffield Utd,Manchester Utd,0.4798979485566356,0.0
+Manchester Utd,Sheffield Utd,0.9486832980505138,0.0
+Sheffield Utd,Burnley,0.4798979485566356,0.0
+Burnley,Sheffield Utd,0.6,0.0
+Sheffield Utd,Chelsea,0.4798979485566356,0.0
+Chelsea,Sheffield Utd,0.6828203230275509,0.1
+Sheffield Utd,Brighton,0.4798979485566356,0.0
+Brighton,Sheffield Utd,0.5477225575051662,0.0
+Sheffield Utd,Wolves,0.4798979485566356,0.0
+Wolves,Sheffield Utd,0.4798979485566356,0.1
+Wolves,Aston Villa,0.4798979485566356,0.1
+Aston Villa,Wolves,0.6,0.010000000000000002
+Wolves,Manchester City,0.4798979485566356,0.1
+Manchester City,Wolves,0.7745966692414834,0.04000000000000001
+Wolves,Manchester Utd,0.4798979485566356,0.1
+Manchester Utd,Wolves,0.9486832980505138,0.0
+Wolves,Burnley,0.4798979485566356,0.1
+Burnley,Wolves,0.6,0.0
+Wolves,Chelsea,0.4798979485566356,0.1
+Chelsea,Wolves,0.6828203230275509,0.1
+Wolves,Brighton,0.4798979485566356,0.1
+Brighton,Wolves,0.5477225575051662,0.0
+Brighton,Aston Villa,0.5477225575051662,0.0
+Aston Villa,Brighton,0.6,0.010000000000000002
+Brighton,Manchester City,0.5477225575051662,0.0
+Manchester City,Brighton,0.7745966692414834,0.04000000000000001
+Brighton,Manchester Utd,0.5477225575051662,0.0
+Manchester Utd,Brighton,0.9486832980505138,0.0
+Brighton,Burnley,0.5477225575051662,0.0
+Burnley,Brighton,0.6,0.0
+Brighton,Chelsea,0.5477225575051662,0.0
+Chelsea,Brighton,0.6828203230275509,0.1
+Chelsea,Aston Villa,0.6828203230275509,0.1
+Aston Villa,Chelsea,0.6,0.010000000000000002
+Chelsea,Manchester City,0.6828203230275509,0.1
+Manchester City,Chelsea,0.7745966692414834,0.04000000000000001
+Chelsea,Manchester Utd,0.6828203230275509,0.1
+Manchester Utd,Chelsea,0.9486832980505138,0.0
+Chelsea,Burnley,0.6828203230275509,0.1
+Burnley,Chelsea,0.6,0.0
+Burnley,Aston Villa,0.6,0.0
+Aston Villa,Burnley,0.6,0.010000000000000002
+Burnley,Manchester City,0.6,0.0
+Manchester City,Burnley,0.7745966692414834,0.04000000000000001
+Burnley,Manchester Utd,0.6,0.0
+Manchester Utd,Burnley,0.9486832980505138,0.0
+Manchester Utd,Aston Villa,0.9486832980505138,0.0
+Aston Villa,Manchester Utd,0.6,0.010000000000000002
+Manchester Utd,Manchester City,0.9486832980505138,0.0
+Manchester City,Manchester Utd,0.7745966692414834,0.04000000000000001
+Manchester City,Aston Villa,0.7745966692414834,0.04000000000000001
+Aston Villa,Manchester City,0.6,0.010000000000000002

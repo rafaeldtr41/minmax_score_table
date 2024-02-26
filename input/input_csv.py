@@ -7,7 +7,7 @@ import csv
 from pathlib import Path
 from datetime import datetime
 from django.db import IntegrityError
-from score_database.models import Team, Score, Weight
+from score_database.models import Team, Score, MinMax_Weight
 import re
 
 
@@ -117,6 +117,31 @@ def open_file(dir:str):
                 print(insert_team(row['away_team']))
                 print(insert_score(row))
 
-    #except:
 
-     #   print(file_address + "is not a csv")
+def write_file():
+
+    team = Team.objects.all()
+
+    column_name = ['team', 'against_team', 'best_val', 'worst_val']
+
+    with open('minmax_records.csv', 'w') as csvfile:
+
+        writer = csv.writer(csvfile, delimiter=',',
+                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        
+
+        writer.writerow(column_name)
+        for i in range(0, len(team)):
+            print(i)
+            for j in range(len(team), i + 1, -1):
+                print(j)
+                #print(team[j - 1].id)
+                aux = MinMax_Weight.objects.get(team_id=team[i].id, team_against_id=team[j - 1].id)
+                row = [team[i].name, team[j -1].name, aux.max_value, aux.less_value]
+                writer.writerow(row)
+                aux = MinMax_Weight.objects.get(team_id=team[j -1].id, team_against_id=team[i].id)
+                row = [team[j -1].name, team[i].name, aux.max_value, aux.less_value]
+                writer.writerow(row)
+
+
+
